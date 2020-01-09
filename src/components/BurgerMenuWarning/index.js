@@ -41,7 +41,7 @@ export default function BurgerMenuWarning() {
     burgerButton: {
       backgroundColor: animation.interpolate({
         inputRange: [0, 1],
-        outputRange: ['#448aff', '#d50000'],
+        outputRange: ['#448aff', '#fdd835'],
       }),
     },
   };
