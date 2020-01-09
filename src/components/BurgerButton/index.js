@@ -13,11 +13,13 @@ export default function MenuHumburger() {
     Animated.timing(upperAnimation, {
       toValue: activated ? 0 : 25,
       duration: 300,
+      useNativeDriver: true,
     }).start();
 
     Animated.timing(lowerAnimation, {
       toValue: activated ? 0 : -25,
       duration: 300,
+      useNativeDriver: true,
     }).start();
   };
   const animatedStyles = {

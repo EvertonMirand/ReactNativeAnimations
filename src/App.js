@@ -17,6 +17,7 @@ import {
 
 import BugerButton from './components/BurgerButton';
 import BurgerMenuWarning from './components/BurgerMenuWarning';
+import BurgerMenuError from './components/BurgerMenuError';
 
 const styles = StyleSheet.create({
   container: {
@@ -49,6 +50,7 @@ const App = () => {
     <SafeAreaView style={styles.container}>
       <BugerButton />
       <BurgerMenuWarning />
+      <BurgerMenuError />
     </SafeAreaView>
   );
 };
