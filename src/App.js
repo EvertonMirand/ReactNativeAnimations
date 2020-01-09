@@ -16,6 +16,7 @@ import {
 } from 'react-native';
 
 import BugerButton from './components/BurgerButton';
+import BurgerMenuWarning from './components/BurgerMenuWarning';
 
 const styles = StyleSheet.create({
   container: {
@@ -47,6 +48,7 @@ const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <BugerButton />
+      <BurgerMenuWarning />
     </SafeAreaView>
   );
 };
